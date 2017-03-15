@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'quick_start',
+  srcs = [
+    'quick_start.cpp',
+  ],
+  deps = [
+    '//:boost-wave',
+  ],
+)

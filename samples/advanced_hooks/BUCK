@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'advanced_hooks',
+  header_namespace = '',
+  headers = [
+    'advanced_hooks.hpp',
+  ],
+  srcs = [
+    'advanced_hooks.cpp',
+  ],
+  deps = [
+    '//:boost-wave',
+  ],
+)

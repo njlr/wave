@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'custom_directives',
+  header_namespace = '',
+  headers = subdir_glob([
+    ('', '**/*.hpp'),
+  ]),
+  srcs = glob([
+    '**/*.cpp',
+  ]),
+  deps = [
+    '//:boost-wave',
+  ],
+)

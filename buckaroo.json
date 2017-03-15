@@ -1,0 +1,11 @@
+{
+  "name": "boost-wave",
+  "dependencies": {
+    "boost-config": "1.63.0",
+    "boost-assert": "1.63.0",
+    "boost-spirit": "1.63.0",
+    "boost-multi-index": "1.63.0",
+    "boost-thread": "1.63.0",
+    "boost-atomic": "1.63.0"
+  }
+}

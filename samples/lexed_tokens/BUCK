@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'lexed_tokens',
+  srcs = glob([
+    ('', '**/*.h'),
+  ]),
+  deps = [
+    '//:boost-wave',
+  ],
+)
